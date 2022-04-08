@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.1525
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TTCodeChallenge", "TTCodeChallenge\TTCodeChallenge.csproj", "{0C2B3699-BEAB-4426-960D-FA3999D19E10}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTests", "UnitTests\UnitTests.csproj", "{7275A895-A71A-4BE3-AB10-F924D779B218}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0C2B3699-BEAB-4426-960D-FA3999D19E10}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0C2B3699-BEAB-4426-960D-FA3999D19E10}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0C2B3699-BEAB-4426-960D-FA3999D19E10}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0C2B3699-BEAB-4426-960D-FA3999D19E10}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7275A895-A71A-4BE3-AB10-F924D779B218}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7275A895-A71A-4BE3-AB10-F924D779B218}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7275A895-A71A-4BE3-AB10-F924D779B218}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7275A895-A71A-4BE3-AB10-F924D779B218}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {109D7C03-A46F-4E06-8F02-3CD889AAC96F}
+	EndGlobalSection
+EndGlobal
