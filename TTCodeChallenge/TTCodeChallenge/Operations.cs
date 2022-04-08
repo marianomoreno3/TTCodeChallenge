@@ -37,20 +37,11 @@ namespace TTCodeChallenge
         actualValue = digit1 + digit2 + carry;
         carry = 0;
 
-        //Console.WriteLine("==================================================================");
-        //Console.WriteLine("Digit 1: " + digit1);
-        //Console.WriteLine("Digit 2: " + digit2);
-        //Console.WriteLine("actualValue: " + actualValue);
-
         if (actualValue >= 10)
         {
           carry = 1;
           actualValue = actualValue % 10;
         }
-
-        //Console.WriteLine("actualValue: " + actualValue);
-        //Console.WriteLine("carry: " + carry);
-        //Console.WriteLine("==================================================================");
 
         result = String.Concat(actualValue.ToString(), result);
 
